@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unilever Shilling';
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style-type: none;
+}
+
+main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(244, 255, 251);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 18%;
+    background-color: #001f82;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    height: 100%;
+    background-color: #2036c7;
+}
+
+.logo-container img{
+    width: 340px;
+    padding-left: 30px;
+}
+
+nav ul.top-ul{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+nav ul.top-ul li{
+    padding: 0 10px;
+}
+
+nav ul.top-ul li.location-section span{
+    padding: 0 10px;
+}
+
+nav ul.top-ul li.nav-btn{
+    background-color: #77ddf4;
+    padding: 10px 15px;
+}
+
+nav ul.top-ul li.nav-btn a{
+    color: #4929a5;
+}
+
+nav ul.bottom-ul{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.hero-banner{
+    width: 100%;
+    height: 61%;
+    background-color: aquamarine;
+}
+
+.hero-banner img{
+    width: 100vw;
+    height: 100%;
+}
+
+.search-container{
+    width: 100%;
+    height: 21%;
+    background-color: #001f82;
+}
