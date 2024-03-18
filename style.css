@@ -448,7 +448,20 @@ nav ul.bottom-ul li a.brands-link{
 }
 
 .container-3 .content-3{
-    width: 35vw;
+    width: 25vw;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.container-3 .content-3 h2{
+    font-size: 2.3em;
+    line-height: 1.2;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.container-3 .content-3 p{
+    width: 24vw;
 }
 
 .container-3 .inner-container-3{
@@ -457,11 +470,62 @@ nav ul.bottom-ul li a.brands-link{
 
 .inner-container-3 ul{
     width: 22vw;
-    height: 45vh;
+    height: 43vh;
     margin: 10px;
     background-color: #2036c7;
 }
 
-.inner-container-3 ul li{
-    
+.inner-container-3 ul li.content-image{
+    width: 100%;
+    height: 60%;
+}
+
+.inner-container-3 ul li.content-image img{
+    width: 100%;
+    border: 1px solid #0054e5;
+}
+
+.inner-container-3 ul li.content-li{
+    width: 100%;
+    height: 40%;
+    padding: 15px;
+}
+
+li.content-li .inner-content h2{
+    text-decoration: underline;
+}
+
+li.content-li .inner-content p{
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+
+.container-4{
+    width: 100%;
+    height: 110vh;
+    background-color: #001f82;
+}
+
+.container-4 .top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.container-4 .top-container ul{
+    width: 22vw;
+    height: 43vh;
+    margin: 10px;
+    background-color: #2036c7;
+    border: 1px solid #0054e5;
+}
+
+.container-4 .top-container ul li img{
+    width: 100%;
+}
+
+.container-4 .top-container ul li .inner-content{
+    padding: 10px;
 }
