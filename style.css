@@ -669,6 +669,11 @@ li.content-li .inner-content p{
 .share-bar ul.socials img{
     width: 60px;
     padding: 0 10px;
+    transition: transform 0.2s ease;
+}
+
+.share-bar ul.socials img:hover{
+    transform: scale(1.15);
 }
 
 .contact-container{
@@ -708,6 +713,11 @@ li.content-li .inner-content p{
 
 .left-section img{
     width: 50px;
+    transition: transform 0.2s ease;
+}
+
+.left-section img:hover{
+    transform: scale(1.15);
 }
 
 .contact-container .right-section{
